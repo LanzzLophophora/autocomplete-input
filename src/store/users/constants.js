@@ -1,0 +1,3 @@
+export const GET_EMAILS_REQUEST = 'users/GET_EMAILS_REQUEST';
+export const GET_EMAILS_SUCCESS = 'users/GET_EMAILS_SUCCESS';
+export const GET_EMAILS_FAILURE = 'users/GET_EMAILS_FAILURE';

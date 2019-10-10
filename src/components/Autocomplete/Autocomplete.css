@@ -1,0 +1,43 @@
+.autocomplete-wrapper {
+  position: relative;
+}
+
+.autocomplete-wrapper .autocomplete-input {
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.autocomplete-wrapper .autocomplete-selector {
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(204, 204, 204);
+  border-top: 0;
+  border-radius: 0 0 10px 10px;
+  background-color: white;
+  overflow: scroll;
+}
+
+.autocomplete-wrapper .autocomplete-input,
+.autocomplete-wrapper .autocomplete-selector .autocomplete-option {
+  outline: none;
+}
+
+.autocomplete-wrapper .autocomplete-selector .autocomplete-option:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+.autocomplete-wrapper .autocomplete-selector .autocomplete-option {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.autocomplete-wrapper .autocomplete-selector .autocomplete-option:hover,
+.autocomplete-wrapper .autocomplete-selector .autocomplete-option.active {
+  background-color: rgb(204, 204, 204);
+}
